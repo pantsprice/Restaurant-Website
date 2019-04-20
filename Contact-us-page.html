@@ -1,0 +1,89 @@
+<!doctype html>
+<!--
+    Name: Luke Price
+    Date created: 4/3/2019
+    Most recent version:
+-->
+<html lang="en">
+    <head>
+        <title>Odd Dog Contacts</title>
+        <link rel="stylesheet" type="text/css" href="Styles/restaurantStyles.css">
+        
+    </head>
+    <body>
+        <main>
+            <header>
+            <h1>Odd Dog Contacts</h1>
+                <style>
+                    label {
+                        font-weight: bold;
+                          }
+                    
+                </style>
+            </header>
+            <hr />
+            
+        <nav>
+            <p><a href="Restaurant-Website.html">Home</a></p>
+            <p><a href="Menu.html">Menu</a></p>
+        </nav>
+            <hr />
+            
+            <form action="submit.html" method="POST">
+            <label for="name">Name:</label> <br />
+                <input type="text" id="Name" name="Name"> <br />
+                <br />
+            
+            <label for="Email">Email:</label><br />
+                <input type="text" id="Email" name="Email"> <br />
+                <br />
+            
+            <label for="phone number">Phone Number:</label><br />
+                <input type="text" id="phonenumber" name="phonenumber"> <br />
+                <br />
+            
+            <label for="inquiry">Reason for inquiry:</label><br />
+                <select id="inquiry" name="inquiry">
+                
+                    <option value="default" selected>Catering</option>
+                    <option value="private party">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+          
+                <p>
+                    <label for="info">Additional Information</label><br />
+                    <textarea id="info" name="info"></textarea>
+                </p>
+                
+                
+                <legend>Have you bee to Odd Dog Cafe Before?</legend><br />
+                    <input type="radio" id="choice1" name="questionnaire" value="yes">
+                    <label for="choice1">Yes</label><br />
+                    <input type="radio" id="choice2" name="questionnaire" value="no">
+                    <label for="choice2">No</label><br />
+                <br />
+                
+                <legend>Best days to contact you:</legend>
+                <br />
+                <input type="checkbox" name="myChoices" value="Monday" unchecked/>Monday<br />
+                <input type="checkbox" name="myChoices" value="Tuesday" unchecked/>Tuesday<br />
+                <input type="checkbox" name="mychoices" value="Wednesday"
+                unchecked/>Wednesday<br />
+                <input type="checkbox" name="mychoices" value="thursday"
+                unchecked/>Thursday<br />
+                <input type="checkbox" name="mychoices" value="Friday"
+                unchecked/>Friday<br />
+                <br />
+                <input type="submit" name="submit" value="Send Request">
+               
+                <hr />
+                
+            </form>
+           <p>1234 Street Avenue North, Mpls, MN 12345</p>
+            <p>Ph.123-456-7890</p>
+             
+             <footer> <!-- The footer is a block at the bottom of the page. -->
+                <hr />
+                <p>&copy; 2019 Odd Dog Cafe. All rights reserved</p>
+             </footer>
