@@ -1,0 +1,277 @@
+<!doctype html>
+<!--
+    Name: Luke Price
+    Date created: 4/3/2019
+    Most recent version:
+-->
+<html lang="en">
+    <head>
+        <title>Odd Dog Contacts</title>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <link rel="stylesheet" type="text/css" href="Styles/restaurantStyles.css">
+        
+        
+    </head>
+    <body>
+        <main>
+            <nav>
+            <ul class="nav nav-tabs">
+  <li class="active"><a href="Restaurant-Website.html">Home</a></li>
+  <li><a href="Menu.html">Menu</a></li>
+  <li><a href="Contact-us.html">Contact us</a></li>
+       </ul>
+        </nav>
+            <header>
+            <h1>Odd Dog Contacts</h1>
+                <style>
+                    label {
+                        font-weight: bold;
+                          }
+                    
+      
+                </style>
+            </header>
+           
+            <br />
+            <br />
+            
+             <legend>Have you been to Odd Dog Cafe Before?</legend>
+            <!--<input type="radio" id="choice1" name="questionnaire" value="yes">
+                    <label for="choice1">Yes</label><br />
+                    <input type="radio" id="choice2" name="questionnaire" value="no">
+                    <label for="choice2">No</label><br />
+            -->
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline1">Yup</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline2">Nope</label>
+            </div>
+            <div class="custom-control custom-radio custom-control-inline">
+              <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+              <label class="custom-control-label" for="customRadioInline3">Maybe</label>
+            </div>
+            
+                <br />
+                <br />
+                <br />
+                
+                <legend>Best days to contact you:</legend>
+            
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Monday</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Tuesday</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+              <label class="form-check-label" for="inlineCheckbox3">Wednesday</label>
+            </div>
+                <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option4">
+              <label class="form-check-label" for="inlineCheckbox1">Thursday</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option5">
+              <label class="form-check-label" for="inlineCheckbox2">Friday</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option6">
+              <label class="form-check-label" for="inlineCheckbox3">Saturday</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option7">
+              <label class="form-check-label" for="inlineCheckbox3">Sunday</label>
+            </div>
+            
+            <br />
+            <br />
+            <br />
+            
+            <form>
+               <label for="exampleFormControlTextarea1">What is the reason for contacting us</label>
+              <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                  <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+                  <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                    <option selected>Reason for inquiry</option>
+                    <option value="1">Catering</option>
+                    <option value="2">Private Party</option>
+                    <option value="3">Feedback</option>
+                    <option value="4">Other</option>
+                  </select>
+                </div>
+                </div>
+            </form>
+            
+            <br />
+            <br />
+            
+            <form>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationDefault01">First name</label>
+                  <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationDefault02">Last name</label>
+                  <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefault03">City</label>
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationDefault04">State</label>
+                  <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationDefault05">Zip</label>
+                  <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                </div>
+              </div>
+                
+              <button class="btn btn-primary"; type="submit"; onclick="alert('Form Submitted')">Submit</button>
+                
+            </form>
+            
+            <!--
+            <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+            </form>
+            <br />
+             <form>
+              <div class="row">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Phone Number">
+                </div>
+              </div>
+            </form>
+            -->
+            
+            <!--<form action="submit.html" method="POST">
+            <label for="name">Name:</label> <br />
+                <input type="text" id="Name" name="Name"> <br />
+                <br />
+            
+            <label for="Email">Email:</label><br />
+                <input type="text" id="Email" name="Email"> <br />
+                <br />
+            
+            <label for="phone number">Phone Number:</label><br />
+                <input type="text" id="phonenumber" name="phonenumber"> <br />-->
+               
+            
+            <!--
+            <form>
+              <div class="form-row">
+                <div class="col-7">
+                  <input type="text" class="form-control" placeholder="City">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="State">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Zip">
+                </div>
+              </div>
+            </form>
+            -->
+            <br />
+            
+           
+            
+            <!--<label for="inquiry">Reason for inquiry:</label><br />
+                <select id="inquiry" name="inquiry">
+                
+                    <option value="default" selected>Catering</option>
+                    <option value="private party">Private Party</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="other">Other</option>
+                </select>
+                    -->
+                <br />
+                <form>
+                  
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Additional Information</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+            
+                <!--<p>
+                    <label for="info">Additional Information</label><br />
+                    <textarea id="info" name="info"></textarea>
+                </p>
+                -->
+                
+                <br />   
+            
+              
+            <!--
+                <input type="checkbox" name="myChoices" value="Monday" unchecked/>Monday<br />
+                <input type="checkbox" name="myChoices" value="Tuesday" unchecked/>Tuesday<br />
+                <input type="checkbox" name="mychoices" value="Wednesday"
+                unchecked/>Wednesday<br />
+                <input type="checkbox" name="mychoices" value="thursday"
+                unchecked/>Thursday<br />
+                <input type="checkbox" name="mychoices" value="Friday"
+                unchecked/>Friday<br />
+            -->
+            <br />
+            <!--
+            <input type="submit" name="submit" value="Send Request">
+            -->   
+                <hr />
+            
+                <div class="container">
+                    <div class="row">
+                    <div class="col-2"></div>
+                        <div class="col-5">1234 Street Avenue North, Mpls, MN 12345</div>
+                    <div class="col-3">Ph.123-456-7890</div>
+                    <div class="col-2"></div>
+                    </div>
+                </div>
+            
+           <!--<p>1234 Street Avenue North, Mpls, MN 12345</p>
+            <p>Ph.123-456-7890</p>-->
+             
+             <footer> <!-- The footer is a block at the bottom of the page. -->
+                <hr />
+                <p>&copy; 2019 Odd Dog Cafe. All rights reserved</p>
+             </footer>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <script> 
+       
+          </script> 
+        
+    </body>
+</html>
+            
+            
